@@ -1,0 +1,7 @@
+<% results.forEach(m => { %>
+    <div>
+        <h2><%= results.name %></h2>
+        <img src="<%= results.url %>" alt="pokemon">
+        <a href= "/favorites/<%= results.url%>">More Info</a>
+    </div>
+<% }) %>
