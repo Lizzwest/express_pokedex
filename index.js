@@ -28,15 +28,6 @@ app.get('/',(req, res)=> {
 });
 
 
-// app.get('/favorites',(req, res)=> {
-//   let pokemonUrl = 'http://pokeapi.co/api/v2/pokemon?limit=151/';
-//   // Use request to call the API
-//   axios.get(pokemonUrl).then(response => {
-//     console.log(response.data)
-//     let pokemon = response.data.results;
-//     res.render('favorites', { pokemon: pokemon.slice(0, 151) });
-//   });
-// });
 // Imports all routes from the pokemon routes file
 app.use('/pokemon', require('./routes/pokemon'));
 

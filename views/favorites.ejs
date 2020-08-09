@@ -11,7 +11,7 @@
   </h3>
   <form method="POST" action="/pokemon?_method=DELETE">
     <input type="hidden" name="name" value="<%= p.name %>" />
-    <button type="submit">Remove from Favorites?</button>
+    <button id= "unfave" class="btn btn-primary yellow lighten-3" type="submit">Un-Fave?</button>
   </form>
 </div>
 <% }); %>

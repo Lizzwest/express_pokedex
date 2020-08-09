@@ -1,33 +1,114 @@
  body{
-     background-image: url(https://i.pinimg.com/originals/89/05/34/890534621f6816c286fef62039ab2d1e.png); 
-   background-repeat: initial;
-   background-size: auto;
-   background: linear-gradient(rgb(251, 251, 60),rgb(255, 217, 0)), rgb(255, 208, 0);
+   background-repeat:repeat;
+   background-size: 1500px 700px;
+   background: #fff685;
+   padding: 10px 200px 0 200px; 
+   
+
 
 }
 h1{
-    color: rgb(238, 238, 24);
+    color:#f75990;
     font-style: italic;
     font-weight: bolder;
     font-variant: small-caps;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Cabin', sans-serif;
     text-align: center;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: purple;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    justify-content: center;
+    text-align: center;
 }
 
 h2{
-    color: black;
+    color:#f75990;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:  rgb(81, 255, 0);
+    -webkit-text-stroke-color:  black;
     /* font-weight: bolder; */
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-size: 100px;
+    font-variant: small-caps;
+    text-align: center;
+    justify-content: center;
+    
 } 
 h3{
-    color: black;
+    color: #f75990;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:  rgb(81, 255, 0);
-    /* font-weight: bolder; */
-    font-family: 'Press Start 2P', cursive;
+    -webkit-text-stroke-color:  black;
+    font-family: 'Cabin', sans-serif;
+    font-variant: small-caps;
+    
+    text-align: center;
+    justify-content: center;
 
+}
+h4{
+    color: #f75990;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  black;
+    font-family: 'Cabin', sans-serif;
+    font-variant: small-caps;
+    font-size: 100px;
+    
+    text-align: center;
+    justify-content: center;
+
+}
+.well{
+    /* background: linear-gradient(rgb(251, 251, 60),rgb(255, 217, 0)), rgb(255, 208, 0); */
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    font-variant: small-caps;
+
+}
+ 
+
+#unfave{
+    color: #00DDFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  black;
+    font-size: 10px;
+    height: 50px;
+    width: 90px;
+    /* background-image:url(https://i.pinimg.com/originals/dc/28/f7/dc28f762c803b7aef0d64875712acca9.png); */
+    background-size: 100px 100px;;
+    border: 2px ridge #0049B7;
+    /* background:  #f50057; */
+    font-family: 'Cabin', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    justify-content: center;
+
+}
+#add{
+    color: #00DDFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  black;
+    font-size: 10px;
+    height: 40px;
+    width: 70px;
+    /* background-image:url(https://w7.pngwing.com/pngs/247/737/png-transparent-smiling-pokemon-pikachu-while-waving-illustration-pikachu-ash-ketchum-pokemon-cartoon-picacho-cartoon-character-food-cartoon-arms.png); */
+    background-size: 100px 100px;;
+    border: 2px ridge #0049B7;
+    font-family: 'Cabin', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    justify-content: center;
+    padding: 3px;
+    /* margin: 300px; */
+}
+.nav{
+    /* background:  #f50057; */
+    font-family: 'Cabin', sans-serif;
+}
+button{
+    justify-content: center;
+    padding: 300px;
+    margin: 300px;
+}
+#sprite{
+    height: 200px;
+    width: 200px;
 }
