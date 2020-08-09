@@ -1,0 +1,18 @@
+<h2><%= pokedata.order %> - <%= pokedata.name %></h2>
+
+<img src="<%= pokedata.sprites.front_default %>" />
+
+<div>
+  <h3>Type:</h3>
+
+  <% pokedata.types.forEach((t)=>{ %>
+  <h4 class="<%= t.type.name %>"><%= t.type.name.toUpperCase() %></h4>
+  <% }); %>
+  <h4>Abilities:</h4>
+  <% pokedata.abilities.forEach((a)=>{ %>
+  
+  <h4 class="<%= a.ability.name %>"><%= a.ability.name.toUpperCase() %></h4>
+  <% }); %>
+
+  
+  

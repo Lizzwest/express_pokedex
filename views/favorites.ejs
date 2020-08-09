@@ -1,7 +1,17 @@
-<% results.forEach(m => { %>
-    <div>
-        <h2><%= results.name %></h2>
-        <img src="<%= results.url %>" alt="pokemon">
-        <a href= "/favorites/<%= results.url%>">More Info</a>
-    </div>
-<% }) %>
+<h2>Favorites</h2>
+
+
+
+<% pokemon.forEach((p)=>{ %>
+<div class="well">
+  <h3>
+    <a href="/pokemon/<%= p.name %>">
+      <%= p.name %>
+    </a>
+  </h3>
+  <form method="POST" action="/pokemon?_method=DELETE">
+    <input type="hidden" name="name" value="<%= p.name %>" />
+    <button type="submit">Remove from Favorites?</button>
+  </form>
+</div>
+<% }); %>

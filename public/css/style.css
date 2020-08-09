@@ -1,8 +1,8 @@
-body{
-    background-image: url(https://i.pinimg.com/originals/89/05/34/890534621f6816c286fef62039ab2d1e.png);
+ body{
+     background-image: url(https://i.pinimg.com/originals/89/05/34/890534621f6816c286fef62039ab2d1e.png); 
    background-repeat: initial;
    background-size: auto;
-   
+   background: linear-gradient(rgb(251, 251, 60),rgb(255, 217, 0)), rgb(255, 208, 0);
 
 }
 h1{
@@ -20,6 +20,14 @@ h2{
     color: black;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color:  rgb(81, 255, 0);
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-family: 'Press Start 2P', cursive;
+} 
+h3{
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  rgb(81, 255, 0);
+    /* font-weight: bolder; */
+    font-family: 'Press Start 2P', cursive;
+
 }
