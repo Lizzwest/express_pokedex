@@ -7,6 +7,16 @@
 
 
 }
+.brand-logo{
+    
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  black;
+    font-family: 'Cabin', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    justify-content: center;
+    padding: 3px;
+}
 h1{
     color:#f75990;
     font-style: italic;
@@ -18,6 +28,7 @@ h1{
     -webkit-text-stroke-color: black;
     justify-content: center;
     text-align: center;
+    font-style: normal;
 }
 
 h2{
@@ -50,6 +61,7 @@ h4{
     font-family: 'Cabin', sans-serif;
     font-variant: small-caps;
     font-size: 100px;
+    margin-top: 40px;
     
     text-align: center;
     justify-content: center;
@@ -57,9 +69,9 @@ h4{
 }
 .well{
     /* background: linear-gradient(rgb(251, 251, 60),rgb(255, 217, 0)), rgb(255, 208, 0); */
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-    /* text-align: center; */
+     justify-items: center; 
+    margin: 0 auto;
+     text-align: center; 
     font-variant: small-caps;
 
 }
@@ -111,4 +123,23 @@ button{
 #sprite{
     height: 200px;
     width: 200px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5px auto; */
+    left: 40%;
+    position: relative;
+}
+
+.material-icons{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  black;
+    font-family: 'Cabin', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    justify-content: center;
+    padding: 3px;
+    font-style: normal ;
+    
+
 }

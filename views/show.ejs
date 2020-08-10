@@ -13,6 +13,13 @@
   
   <h4 class="<%= a.ability.name %>"><%= a.ability.name.toUpperCase() %></h4>
   <% }); %>
+  <h4>Top Moves:</h4>
+  
+  <% pokedata.moves.splice(1,6).forEach(m =>{ %>
+    <% let moveName= m.move.name %>
+  
+  <h4 class="<%=moveName %>"><%= moveName.toUpperCase() %></h4>
+  <% }); %>
 
   
   
